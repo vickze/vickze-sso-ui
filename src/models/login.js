@@ -84,6 +84,14 @@ export default {
           forbidden: true,
         })
       }
+      //校验systemKey service
+      const validateResponse = yield call(validateService, { systemKey, service });
+      if (!validateResponse) {
+        callback({
+          forbidden: true,
+        })
+        return;
+      }
 
       const token = getToken();
       //reducer同步
