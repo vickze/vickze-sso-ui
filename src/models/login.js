@@ -71,6 +71,7 @@ export default {
           callback({
             token,
           });
+          return;
         }
       }
       callback();
