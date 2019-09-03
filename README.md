@@ -1,6 +1,6 @@
 # vickze-sso-ui
 
-使用ant-design-pro开发，单点登录纯前端解决方案，后端工程 [https://github.com/vickze/vickze-cloud-admin](https://github.com/vickze/vickze-cloud-admin)
+使用ant-design-pro开发，单点登录前端解决方案，后端工程 [https://github.com/vickze/vickze-cloud-admin](https://github.com/vickze/vickze-cloud-admin)
 
 SSO时序图
 
